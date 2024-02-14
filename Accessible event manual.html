@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Accessible Events Manual</title>
+<style>
+  /* Hide image for screen readers */
+  .screen-reader-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+  }
+
+  /* Center-align links */
+  .center {
+    text-align: center;
+    position: fixed;
+    bottom: 20px;
+    width: 100%;
+  }
+
+  /* Set background image to cover entire screen */
+  body {
+    background-image: url('others/image.jpg');
+    background-size: contain; /* Ensure the image fits within the body */
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh; /* Ensure body takes full height of viewport */
+    margin: 0; /* Remove default body margin */
+    overflow: auto; /* Enable scrolling */
+  }
+
+  /* Content container */
+  .content {
+    padding: 20px;
+    padding-bottom: 100px; /* Adjust padding to make space for links */
+  }
+
+  /* Hide paragraph from visual display */
+  .hidden {
+    position: absolute;
+    left: -9999px;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+  }
+
+  /* Style links with dark yellow color */
+  a {
+    color: black; /* Change color of English hyperlink to black */
+    font-size: 1.2em; /* Increase font size of hyperlinks */
+    margin: 0 10px; /* Increase space between hyperlinks */
+    font-weight:bold;
+   /* text-decoration: none; Remove underline */
+  }
+
+  /* Style Arabic hyperlink */
+  a[href="others/Accessible-ar.html"] {
+    color: white; /* Change color of العربية hyperlink to white */
+  }
+</style>
+</head>
+<body>
+
+<!-- Content container -->
+<div class="content">
+  <!-- Headings for screen readers only -->
+  <h1 class="screen-reader-only">ملخص الدليل الإرشادي لمعايير سهولة الوصول إلى الفعاليات</h1>
+  <h1 class="screen-reader-only">Accessible Events Manual Summary</h1>
+
+  <!-- Your content goes here -->
+  <p class="hidden">دائرة الثقافة والسياحة</p>
+  <p class="hidden">Department of Culture and Tourism</p>
+  <p class="hidden">تم تصميم المحتوى بما يتوافق مع معايير الوصول الشامل في إدارة رعاية المكفوفين بمؤسسة زايد العليا لأصحاب الهمم</p>
+  <p class="hidden">This accessible version was created by The blind care department at Zayed higher organization for people of determination</p>
+
+</div>
+
+<!-- Hyperlinks at the bottom -->
+<div class="center">
+  <a href="others/Accessible-ar.html">العربية</a> | <!-- Moved العربية before English -->
+  <a href="others/Accessible-en.html">English</a>
+</div>
+
+</body>
+</html>
