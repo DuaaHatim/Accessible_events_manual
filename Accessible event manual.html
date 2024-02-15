@@ -28,18 +28,20 @@
   /* Set background image to cover entire screen */
   body {
     background-image: url('others/image.jpg');
-    background-size: contain; /* Ensure the image fits within the body */
+    background-size: contain; /* Ensure the image covers the entire body without stretching */
     background-position: center;
     background-repeat: no-repeat;
     height: 100vh; /* Ensure body takes full height of viewport */
     margin: 0; /* Remove default body margin */
     overflow: auto; /* Enable scrolling */
+    outline: none; /* Hide outline during navigation */
   }
 
   /* Content container */
   .content {
     padding: 20px;
     padding-bottom: 100px; /* Adjust padding to make space for links */
+    color: white; /* Set text color to white */
   }
 
   /* Hide paragraph from visual display */
