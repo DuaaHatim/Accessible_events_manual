@@ -5,9 +5,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Accessible Events Manual</title>
 <style>
-html{
-    background-color:#DCD4C9;
-}
   /* Hide image for screen readers */
   .screen-reader-only {
     position: absolute;
@@ -30,7 +27,7 @@ html{
 
   /* Set background image to cover entire screen */
   body {
-    background-image: url('others/image.jpg');
+    background-image: url('image_delete.jpg');
     background-size: contain; /* Ensure the image fits within the body */
     background-position: center;
     background-repeat: no-repeat;
@@ -39,19 +36,10 @@ html{
     overflow: auto; /* Enable scrolling */
   }
 
-  /* Header image */
-  .header-img {
-    position: fixed;
-    top: 0;
-    left: 25%; /* Adjust left position to center the image */
-    width: 100%; /* Adjust width as needed */
-    z-index: 999; /* Ensure the header image is in front */
-  }
-
   /* Content container */
   .content {
     padding: 20px;
-    padding-top: 100px; /* Adjust padding to make space for header image */
+    padding-bottom: 100px; /* Adjust padding to make space for links */
   }
 
   /* Hide paragraph from visual display */
@@ -80,17 +68,14 @@ html{
 </head>
 <body>
 
-<!-- Header Image -->
-<img src="others/image_1.jpg" alt="Header" class="header-img">
-
 <!-- Content container -->
 <div class="content">
-  <!-- Headings for screen readers only -->
-  <!-- <h1 class="screen-reader-only">ملخص الدليل الإرشادي لمعايير سهولة الوصول إلى الفعاليات</h1>
-  <h1 class="screen-reader-only">Accessible Events Manual Summary</h1> -->
+  <!-- Headings for screen readers only 
+  <h1 class="screen-reader-only">ملخص الدليل الإرشادي لمعايير سهولة الوصول إلى الفعاليات</h1>
+  <h1 class="screen-reader-only">Accessible Events Manual Summary</h1>-->
 
-  <!-- Your content goes here -->
-  <!-- <p class="hidden">دائرة الثقافة والسياحة</p>
+  <!-- Your content goes here 
+  <p class="hidden">دائرة الثقافة والسياحة</p>
   <p class="hidden">Department of Culture and Tourism</p>
   <p class="hidden">تم تصميم المحتوى بما يتوافق مع معايير الوصول الشامل في إدارة رعاية المكفوفين بمؤسسة زايد العليا لأصحاب الهمم</p>
   <p class="hidden">This accessible version was created by The blind care department at Zayed higher organization for people of determination</p> -->
