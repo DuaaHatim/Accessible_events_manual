@@ -10,6 +10,7 @@
       padding: 0;
       height: 100%;
       font-family: Arial, sans-serif;
+      background-color: #DCD4C9; /* Set the background color */
     }
 
     .container {
@@ -23,45 +24,44 @@
       object-fit: cover;
     }
 
-    .links {
-      position: absolute;
-      bottom: 20px;
-      left: 50%;
-      transform: translateX(-50%);
-    }
-
-    .link {
-      color: darkgoldenrod;
-      font-size: 1.2em;
-      margin: 0 10px;
-      text-decoration: none;
-      font-weight: bold;
-    }
-
     footer {
       position: fixed;
       bottom: 0;
       width: 100%;
-      background-color: #f2f2f2;
+      background-color: #DCD4C9; /* Set the background color */
       padding: 10px;
       text-align: center;
       direction: ltr;
+      color: black; /* Set the color of the footer text */
     }
 
     footer p {
       margin: 0;
+    }
+
+    .links {
+      margin-top: 20px; /* Add margin to separate from the image */
+      text-align: center;
+    }
+
+    .link {
+      color: black; /* Set the color of the links to black */
+      font-size: 1.2em;
+      margin: 0 10px;
+      text-decoration: none;
+      font-weight: bold;
     }
   </style>
 </head>
 <body>
   <div class="container">
     <img src="others/image_delete.jpg" alt="">
-    <div class="links">
+  </div>
+  <footer>
+    <div class="links"> <!-- Move the links to the footer -->
       <a href="others/Accessible-ar.html" class="link">العربية</a>
       <a href="others/Accessible-en.html" class="link">English</a>
     </div>
-  </div>
-  <footer>
     <p>
       "تم تصميم المحتوى بما يتوافق مع معايير الوصول الشامل للمواد الرقمية في إدارة رعاية المكفوفين بمؤسسة زايد العليا لأصحاب الهمم"<br>
       "This Accessible version was created in The Blind Care Department at Zayed Higher Organization for People of Determination"
