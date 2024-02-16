@@ -48,8 +48,18 @@
       color: black; /* Set the color of the links to black */
       font-size: 1.2em;
       margin: 0 10px;
-     /* text-decoration: none; */
+      position: relative;
       font-weight: bold;
+    }
+
+    .link::after {
+      content: '';
+      position: absolute;
+      height: 80%;
+      width: 1px;
+      background-color: black;
+      right: -5px;
+      top: 10%;
     }
   </style>
 </head>
